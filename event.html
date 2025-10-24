@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cleaning Awareness - Events</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e8f5e9;
+        color: #2e7d32;
+      }
+
+      header {
+        background: linear-gradient(90deg, #43a047, #2e7d32);
+        color: white;
+        text-align: center;
+        padding: 25px 0;
+        letter-spacing: 1px;
+      }
+
+      header {
+        background-color: #2e8b57;
+        color: white;
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        transition: 0.3s;
+      }
+
+      header:hover {
+        background-color: #3cb371;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        color: #ffd700;
+        transition: 0.3s;
+      }
+
+      /* nav {
+      background-color: #c8e6c9;
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #1b5e20;
+      font-weight: bold;
+      margin: 0 15px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #388e3c;
+    } */
+
+      .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+      }
+
+      .event {
+        background-color: #ffffff;
+        border-left: 8px solid #43a047;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 25px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .event:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .event h2 {
+        color: #1b5e20;
+        margin-bottom: 5px;
+      }
+
+      .event-date {
+        font-style: italic;
+        color: #388e3c;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        background-color: #43a047;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <header>
+      <h1>Cleaning Awareness Events</h1>
+      <p>Join us in making our city clean and green 🌎</p>
+    </header> -->
+
+    <!-- <nav>
+    <a href="events.html">Home</a>
+    <a href="add-event.html">Add Event</a>
+  </nav> -->
+
+    <header>
+      <div class="container">
+        <nav>
+          <h2>EcoClean</h2>
+          <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+          <ul id="nav-menu">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="event">
+        <h2>Beach Cleaning Drive</h2>
+        <p class="event-date">📅 October 20, 2025 | 🌍 Marina Beach</p>
+        <p>
+          Volunteers gathered to clean plastic waste and spread awareness about
+          protecting marine life.
+        </p>
+      </div>
+
+      <div class="event">
+        <h2>Park Waste Collection</h2>
+        <p class="event-date">📅 September 18, 2025 | 🌍 Green Park</p>
+        <p>
+          Participants removed litter and encouraged visitors to use recycling
+          bins effectively.
+        </p>
+      </div>
+
+      <div class="event">
+        <h2>School Cleanliness Campaign</h2>
+        <p class="event-date">📅 August 5, 2025 | 🌍 Govt. High School</p>
+        <p>
+          Students took part in a cleanliness pledge and cleaned classrooms and
+          playgrounds.
+        </p>
+      </div>
+
+      <div class="event">
+        <h2>Community Waste Segregation Workshop</h2>
+        <p class="event-date">📅 July 14, 2025 | 🌍 City Hall</p>
+        <p>
+          Volunteers demonstrated how to separate dry and wet waste to promote
+          better recycling habits.
+        </p>
+      </div>
+
+      <div class="event">
+        <h2>Neighborhood Awareness Rally</h2>
+        <p class="event-date">📅 June 10, 2025 | 🌍 Lake View Road</p>
+        <p>
+          A rally was held to raise awareness about cleanliness, hygiene, and
+          eco-friendly living.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Cleaning Awareness Initiative | Keep Our Earth Green 💚</p>
+    </footer>
+  </body>
+</html>
