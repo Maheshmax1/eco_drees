@@ -1,0 +1,176 @@
+/* General page settings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f9ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+header:hover {
+  background-color: #3cb371;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+  transition: 0.3s;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/* Add volunteer form */
+.add-volunteer {
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-volunteer h2 {
+  text-align: center;
+  color: #14722d;
+}
+
+.add-volunteer label {
+  display: block;
+  margin-top: 10px;
+}
+
+.add-volunteer input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-volunteer button {
+  margin-top: 15px;
+  background-color: #6cdc6c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.add-volunteer button:hover {
+  background-color: #6bab2b;
+}
+
+/* Volunteer list */
+.volunteer-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-list h2 {
+  text-align: center;
+  color: #6fe365;
+}
+
+.volunteer-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.volunteer-card h3 {
+  margin: 0;
+  color: #4da91e;
+}
+
+.volunteer-card p {
+  margin: 4px 0;
+}
+
+.volunteer-card button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.volunteer-card button:hover {
+  background-color: #d93636;
+}
+
+/* Volunteer count */
+.count {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Video section */
+.video-section {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-section h2 {
+  text-align: center;
+  color: #41e228;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #62c070;
+  color: white;
+  margin-top: 20px;
+}
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+}

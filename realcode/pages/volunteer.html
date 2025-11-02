@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer Page - Clean Awareness</title>
+    <link rel="stylesheet" href="../styles/volunteer.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <!-- <header>
+      <h1>Clean Awareness - Volunteers</h1>
+      <p>Join us to keep our city clean and green!</p>
+    </header> -->
+
+    <header>
+      <div class="container">
+        <nav>
+          <h2>EcoClean</h2>
+          <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+          <ul id="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/events.html">Events</a></li>
+            <li><a href="../pages/volunteer.html">Volunteer</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Add Volunteer Form (visual only) -->
+    <section class="add-volunteer">
+      <h2>Add Volunteer</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter volunteer name"
+          required
+        />
+
+        <label for="role">Role:</label>
+        <input
+          type="text"
+          id="role"
+          placeholder="Enter role (e.g., Team Lead)"
+          required
+        />
+
+        <button type="submit">Add Volunteer</button>
+      </form>
+    </section>
+
+    <!-- Volunteer List -->
+    <section class="volunteer-list">
+      <h2>Volunteer Members</h2>
+
+      <div class="volunteer-card">
+        <h3>Mahesh M</h3>
+        <p>Role: Community Lead</p>
+        <p>City: Chennai</p>
+        <button>Remove</button>
+      </div>
+
+      <div class="volunteer-card">
+        <h3>Priya S</h3>
+        <p>Role: Volunteer</p>
+        <p>City: Coimbatore</p>
+        <button>Remove</button>
+      </div>
+
+      <div class="volunteer-card">
+        <h3>Arjun K</h3>
+        <p>Role: Partner</p>
+        <p>City: Madurai</p>
+        <button>Remove</button>
+      </div>
+
+      <p class="count">Total Volunteers: 3</p>
+    </section>
+
+    <!-- Volunteer Video -->
+    <section  class="video-section">
+      <h2>Volunteer Awareness Video</h2>
+      <video controls width="100%">
+        <source src="../assets/volunterr.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Clean Awareness. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
