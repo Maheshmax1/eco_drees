@@ -3,21 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>Contact Us | EcoClean</title>
     <link rel="stylesheet" href="../styles/contact.css" />
   </head>
   <body>
+    <!-- ===== Header ===== -->
     <header>
-      <img src="" alt="Contact Us Banner" class="banner" />
-      <h1>Contact Us</h1>
+      <div class="container">
+        <nav>
+          <h2 id="nav-logo">EcoClean</h2>
+          <ul id="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/events.html">Events</a></li>
+            <li><a href="../pages/volunteer.html">Volunteer</a></li>
+            <li><a href="#contact" class="active-page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <section class="contact-about">
+  <div class="contact-about-content">
+    <h2>We’re Here to Help You</h2>
+    <p>
+      At <strong>EcoClean</strong>, we truly care about our community and the
+      environment. Whether you want to join a clean-up drive, start a
+      plantation event, or simply learn how to reduce waste — we’re always here
+      to guide you. Your feedback, questions, and suggestions inspire us to
+      make our city greener and healthier every day. Reach out to us anytime —
+      our team is happy to connect, support, and work together for a cleaner,
+      better tomorrow.
+    </p>
+  </div>
+</section>
 
-    <section class="contact-container">
+
+    <!-- ===== Contact Section ===== -->
+    <section class="contact-container" id="contact">
       <div class="contact-info">
         <h2>Get in Touch</h2>
         <p><strong>Address:</strong> 123 Green Street, Chennai, India</p>
         <p><strong>Email:</strong> info@cleanawareness.com</p>
         <p><strong>Phone:</strong> +91 98765 43210</p>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps?q=Chennai%20India&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
       </div>
 
       <div class="contact-form">
@@ -42,6 +77,7 @@
       </div>
     </section>
 
+    <!-- ===== Footer ===== -->
     <footer>
       <div class="footer-container">
         <div class="footer-section">
@@ -51,40 +87,47 @@
             clean and green.
           </p>
         </div>
+
         <div class="footer-section">
           <h3>Quick Links</h3>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Volunteer</li>
-            <li>Contact</li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/volunteer.html">Volunteer</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
           </ul>
         </div>
+
         <div class="footer-section">
           <h3>Services</h3>
           <ul>
-            <li>Clean-up Drives</li>
-            <li>Workshops</li>
-            <li>Awareness Campaigns</li>
+            <li><a href="../pages/about.html">Clean-up Drives</a></li>
+            <li><a href="../pages/volunteer.html">Workshops</a></li>
+            <li><a href="../pages/about.html">Awareness Campaigns</a></li>
           </ul>
         </div>
+
         <div class="footer-section">
           <h3>Follow Us</h3>
           <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://x.com/">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/login">LinkedIn</a></li>
           </ul>
         </div>
+
         <div class="footer-section">
           <h3>Contact Info</h3>
-          <p>Email: info@cleanawareness.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p><a href="mailto:info@cleanawareness.com">info@cleanawareness.com</a></p>
+          <p><a href="tel:+919876543210">+91 98765 43210</a></p>
           <p>Location: Chennai, India</p>
         </div>
       </div>
-      <p class="copyright">© 2025 Clean Awareness | All Rights Reserved</p>
+
+      <p class="copyright">
+        © 2025 <a href="#">Clean Awareness</a> | All Rights Reserved
+      </p>
     </footer>
   </body>
 </html>
