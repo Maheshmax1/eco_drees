@@ -117,7 +117,8 @@ nav ul li a:hover,
   gap: 30px;
 }
 
-.contact-info
+.contact-info,
+.contact-form
 {
   flex: 1;
   min-width: 350px;
